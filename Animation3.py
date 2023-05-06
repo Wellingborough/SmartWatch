@@ -72,9 +72,9 @@ try:
         # Update image on display
         disp.ShowImage(Image.frombuffer('RGBA', (240, 240), surface.get_data(), 'raw', 'RGBA', 0, 1))
     #
-    # Give the user a couple of seconds to admire this display
+    # Give the user a few seconds to admire this display
     #
-    time.sleep(4)
+    time.sleep(5)
     
             
 except IOError as e:
